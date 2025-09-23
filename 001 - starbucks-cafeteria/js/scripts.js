@@ -20,8 +20,14 @@ querySlector = selecionar um elemento
 */
 
 let safira = document.querySelector(".circulo")
+let ruby = document.querySelector(".imagem-copo")
 
 function mudarCor(cor) {
   // console.log(cor)
   safira.style.backgroundColor = cor
+}
+
+function mudarImagem(imagem) {
+  // console.log(imagem)
+  ruby.src = imagem
 }
